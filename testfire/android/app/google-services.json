@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "411871030126",
+    "project_id": "dbasep-50cf6",
+    "storage_bucket": "dbasep-50cf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411871030126:android:51773ba477f0ec9703af7f",
+        "android_client_info": {
+          "package_name": "com.example.testfire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_gAkqsAov35eKxvoQ_yTYj-htxrDubqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

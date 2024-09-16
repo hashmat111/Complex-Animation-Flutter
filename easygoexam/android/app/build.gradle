@@ -1,0 +1,47 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id 'com.google.gms.google-services'  // Google services plugin
+    id "dev.flutter.flutter-gradle-plugin"  // Flutter Gradle plugin
+    // Do not include org.jetbrains.kotlin.android here, it should be managed by the project-level build.gradle
+}
+
+android {
+    namespace = "com.example.easygoexam"
+    compileSdk = 34
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.example.easygoexam"
+        minSdk = 23
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:33.2.0')
+    // Add Firebase dependencies here
+    implementation 'com.google.firebase:firebase-analytics'  // Example: Firebase Analytics
+    // Add other Firebase dependencies as needed
+}

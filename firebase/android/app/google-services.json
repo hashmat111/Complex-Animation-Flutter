@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "495066573169",
+    "firebase_url": "https://aerobic-theorem-250612.firebaseio.com",
+    "project_id": "aerobic-theorem-250612",
+    "storage_bucket": "aerobic-theorem-250612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495066573169:android:6b07c6bb8489166b3f2ed0",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495066573169-657qdu6oci4cv8ar4hdsubqdqr9rbgr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ1fvGXM35VBXD6bLTKpo9krXGq0vFXQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495066573169-1tk5lgiiov6u2rs306eotd00smjfid5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

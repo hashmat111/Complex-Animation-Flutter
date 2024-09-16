@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1033221744519",
+    "firebase_url": "https://student-31fa4-default-rtdb.firebaseio.com",
+    "project_id": "student-31fa4",
+    "storage_bucket": "student-31fa4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033221744519:android:e2ff793cfab9a390f21522",
+        "android_client_info": {
+          "package_name": "com.example.student_teacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033221744519-2mgve7lqu1ldv7rfbevhbaubr548v5ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOiQD357I7Wbk1fSkXm2GmzClmgoFLA3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033221744519-2mgve7lqu1ldv7rfbevhbaubr548v5ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

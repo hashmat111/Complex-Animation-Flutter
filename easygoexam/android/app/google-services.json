@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "547754679605",
+    "project_id": "easygoexam",
+    "storage_bucket": "easygoexam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547754679605:android:ef001b87fbf16ac8c3007c",
+        "android_client_info": {
+          "package_name": "com.example.easygoexam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoF6gqVVkVtIWM9En7DBz5IBrb8LRhgL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
