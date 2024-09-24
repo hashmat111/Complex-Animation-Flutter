@@ -55,7 +55,7 @@ signInWithEmailAndPassword(String emailAddress,String password,BuildContext cont
     );
     User ? user=credential.user;
     if(user!=null){
-      Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage(),));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomePage(),));
       
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Login Successfuly !"),
         backgroundColor: Colors.green,

@@ -11,3 +11,8 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+# Ignore Firebase options file
+firebase_options.dart
+google-services.json
+GoogleService-Info.plist
+
